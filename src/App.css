@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.btn{
+  margin: 2px;
+}
+.divbtn{
+  float: left;
+}
+td{
+  vertical-align: middle;
+}
+thead{
+  background-color: #007ACC;
+}
+h1 { color: #003458; font-size: 60px; font-family: 'Signika', sans-serif; padding-bottom: 10px; font-weight: bold; }
+.card-title { color: #007ACC; font-size: 38px; font-family: 'Signika', sans-serif; padding-bottom: 10px; }
+
+.card-details{
+  width: 50%;
+  text-align: left;
+  margin: 0 auto !important;
+  border-radius: 20px !important;
+}
+
+h2 b{
+  color: #61dafb;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+label{
+  font-weight: bold;
+  color: #003458;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
